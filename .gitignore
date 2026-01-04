@@ -1,0 +1,29 @@
+data/
+outputs/
+.vscode/
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+env/
+venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+
+# checkpoints
+page-4d/weights/
+generative-models/checkpoints/
