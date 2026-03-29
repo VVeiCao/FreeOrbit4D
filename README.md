@@ -31,7 +31,7 @@ FreeOrbit4D is a training-free framework that redirects monocular videos to arbi
 <table>
 <tr>
 <td align="center"><b>Input Video</b></td>
-<td align="center"><b>Interactive 4D</b></td>
+<td align="center"><b>Interactive 4D</b><br><sub>(click to explore)</sub></td>
 <td align="center"><b>Output Video</b></td>
 </tr>
 <tr>
