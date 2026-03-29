@@ -29,27 +29,27 @@
 <div align="center">
 
 <table><tr>
-<td align="center"><b>Input Video</b></td>
-<td align="center"><b>Interactive 4D</b><br><sub>(click to explore)</sub></td>
-<td align="center"><b>Output Video</b></td>
+<td width="33%" align="center"><b>Input Video</b></td>
+<td width="33%" align="center"><b>Interactive 4D</b><br><sub>(click to explore)</sub></td>
+<td width="33%" align="center"><b>Output Video</b></td>
 </tr></table>
 
 <table><tr>
-<td align="center"><img src="assets/demo/camel_input.gif" width="280"></td>
-<td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/camel/camel_4d_v14.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/camel_inter.png" width="280"></a></td>
-<td align="center"><img src="assets/demo/camel_output.gif" width="280"></td>
+<td width="33%" align="center"><img src="assets/demo/camel_input.gif" width="280"></td>
+<td width="33%" align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/camel/camel_4d_v14.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/camel_inter.png" width="280"></a></td>
+<td width="33%" align="center"><img src="assets/demo/camel_output.gif" width="280"></td>
 </tr></table>
 
 <table><tr>
-<td align="center"><img src="assets/demo/breakdance_input.gif" width="280"></td>
-<td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/breakdance_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/breakdance_inter.png" width="280"></a></td>
-<td align="center"><img src="assets/demo/breakdance_output.gif" width="280"></td>
+<td width="33%" align="center"><img src="assets/demo/breakdance_input.gif" width="280"></td>
+<td width="33%" align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/breakdance_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/breakdance_inter.png" width="280"></a></td>
+<td width="33%" align="center"><img src="assets/demo/breakdance_output.gif" width="280"></td>
 </tr></table>
 
 <table><tr>
-<td align="center"><img src="assets/demo/unitree_input.gif" width="280"></td>
-<td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/unitree/unitree_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/unitree_inter.png" width="280"></a></td>
-<td align="center"><img src="assets/demo/unitree_output.gif" width="280"></td>
+<td width="33%" align="center"><img src="assets/demo/unitree_input.gif" width="280"></td>
+<td width="33%" align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/unitree/unitree_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/unitree_inter.png" width="280"></a></td>
+<td width="33%" align="center"><img src="assets/demo/unitree_output.gif" width="280"></td>
 </tr></table>
 
 </div>
@@ -59,27 +59,27 @@
 <div align="center">
 
 <table><tr>
-<td align="center"><b>Input Video</b></td>
-<td align="center"><b>Trajectory #1</b></td>
-<td align="center"><b>Trajectory #2</b></td>
+<td width="33%" align="center"><b>Input Video</b></td>
+<td width="33%" align="center"><b>Trajectory #1</b></td>
+<td width="33%" align="center"><b>Trajectory #2</b></td>
 </tr></table>
 
 <table><tr>
-<td align="center"><img src="assets/demo/bear_input.gif" width="240"></td>
-<td align="center"><img src="assets/demo/bear_traj1.gif" width="240"></td>
-<td align="center"><img src="assets/demo/bear_traj2.gif" width="240"></td>
+<td width="33%" align="center"><img src="assets/demo/bear_input.gif" width="240"></td>
+<td width="33%" align="center"><img src="assets/demo/bear_traj1.gif" width="240"></td>
+<td width="33%" align="center"><img src="assets/demo/bear_traj2.gif" width="240"></td>
 </tr></table>
 
 <table><tr>
-<td align="center"><img src="assets/demo/duck_input.gif" width="240"></td>
-<td align="center"><img src="assets/demo/duck_traj1.gif" width="240"></td>
-<td align="center"><img src="assets/demo/duck_traj2.gif" width="240"></td>
+<td width="33%" align="center"><img src="assets/demo/duck_input.gif" width="240"></td>
+<td width="33%" align="center"><img src="assets/demo/duck_traj1.gif" width="240"></td>
+<td width="33%" align="center"><img src="assets/demo/duck_traj2.gif" width="240"></td>
 </tr></table>
 
 <table><tr>
-<td align="center"><img src="assets/demo/hike_input.gif" width="240"></td>
-<td align="center"><img src="assets/demo/hike_traj1.gif" width="240"></td>
-<td align="center"><img src="assets/demo/hike_traj2.gif" width="240"></td>
+<td width="33%" align="center"><img src="assets/demo/hike_input.gif" width="240"></td>
+<td width="33%" align="center"><img src="assets/demo/hike_traj1.gif" width="240"></td>
+<td width="33%" align="center"><img src="assets/demo/hike_traj2.gif" width="240"></td>
 </tr></table>
 
 </div>
