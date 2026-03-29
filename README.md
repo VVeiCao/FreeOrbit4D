@@ -80,11 +80,11 @@
 
 For more results, please visit our [project page](https://cvmlgroup.web.illinois.edu/freeorbit4d/).
 
-## Code Coming Soon
+## ✨ Code Coming Soon ✨
 
 We are actively cleaning and organizing the codebase. Stay tuned!
 
-**Star this repo to get notified when the code is released.**
+⭐ **Star this repo to get notified when the code is released.**
 
 ## Citation
 
