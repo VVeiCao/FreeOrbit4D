@@ -25,7 +25,7 @@
   <sup>1</sup>University of Illinois Urbana-Champaign, <sup>2</sup>University of Pennsylvania, <sup>3</sup>Eyeline Labs
 </p>
 
-FreeOrbit4D is a training-free framework that redirects monocular videos to arbitrary camera trajectories. It recovers a geometry-complete 4D proxy by decoupling foreground/background reconstruction, aligning multi-view point clouds via dense 3D-3D correspondences, and using the projected geometry as structural grounding for conditional video generation.
+<p align="center"><b>TL;DR:</b> FreeOrbit4D is an effective training-free method for large-angle camera redirection via geometry-complete 4D proxy.</p>
 
 <div align="center">
 <table>
