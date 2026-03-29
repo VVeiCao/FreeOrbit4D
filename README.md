@@ -27,25 +27,29 @@
 
 FreeOrbit4D is a training-free framework that redirects monocular videos to arbitrary camera trajectories. It recovers a geometry-complete 4D proxy by decoupling foreground/background reconstruction, aligning multi-view point clouds via dense 3D-3D correspondences, and using the projected geometry as structural grounding for conditional video generation.
 
-## Demo
-
+<div align="center">
 <table>
 <tr>
 <td align="center"><b>Input Video</b></td>
 <td align="center"><b>Output Video</b></td>
+<td align="center"><b>Interactive 4D</b></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/demo/camel_input.gif" width="320"></td>
-<td align="center"><img src="assets/demo/camel_output.gif" width="320"></td>
+<td align="center"><img src="assets/demo/camel_input.gif" width="280"></td>
+<td align="center"><img src="assets/demo/camel_output.gif" width="280"></td>
+<td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/camel/camel_4d_v14.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="https://img.shields.io/badge/4D_Viewer-Camel-orange.svg?style=for-the-badge"></a></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/demo/breakdance_input.gif" width="320"></td>
-<td align="center"><img src="assets/demo/breakdance_output.gif" width="320"></td>
+<td align="center"><img src="assets/demo/breakdance_input.gif" width="280"></td>
+<td align="center"><img src="assets/demo/breakdance_output.gif" width="280"></td>
+<td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/breakdance_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="https://img.shields.io/badge/4D_Viewer-Breakdance-orange.svg?style=for-the-badge"></a></td>
 </tr>
 </table>
+</div>
 
 ### Multiple Trajectories from a Single Input
 
+<div align="center">
 <table>
 <tr>
 <td align="center"><b>Input Video</b></td>
@@ -68,16 +72,7 @@ FreeOrbit4D is a training-free framework that redirects monocular videos to arbi
 <td align="center"><img src="assets/demo/hike_traj2.gif" width="240"></td>
 </tr>
 </table>
-
-### Interactive 4D Reconstruction
-
-Explore our 4D reconstructions interactively in your browser:
-
-<p align="center">
-  <a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/camel/camel_4d_v14.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="https://img.shields.io/badge/4D_Viewer-Camel-orange.svg"></a>
-  <a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/breakdance_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="https://img.shields.io/badge/4D_Viewer-Breakdance-orange.svg"></a>
-  <a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/unitree/unitree_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="https://img.shields.io/badge/4D_Viewer-Unitree-orange.svg"></a>
-</p>
+</div>
 
 For more results, please visit our [project page](https://cvmlgroup.web.illinois.edu/freeorbit4d/).
 
