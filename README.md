@@ -5,9 +5,8 @@
 ### <p align="center">[FreeOrbit4D: Training-Free Arbitrary Camera Redirection for Monocular Videos via Geometry-Complete 4D Reconstruction](https://arxiv.org/abs/2601.18993)</p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2601.18993"><img src="https://img.shields.io/badge/arXiv-2601.18993-b31b1b.svg"></a>
-  <a href="https://arxiv.org/pdf/2601.18993"><img src="https://img.shields.io/badge/Paper-PDF-blue.svg"></a>
-  <a href="https://cvmlgroup.web.illinois.edu/freeorbit4d/"><img src="https://img.shields.io/badge/Project-Page-green.svg"></a>
+  <a href="https://cvmlgroup.web.illinois.edu/freeorbit4d/"><img src="https://img.shields.io/badge/Project-Page-green.svg?style=for-the-badge"></a>
+  <a href="https://arxiv.org/abs/2601.18993"><img src="https://img.shields.io/badge/arXiv-2601.18993-b31b1b.svg?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -25,7 +24,7 @@
   <sup>1</sup>University of Illinois Urbana-Champaign, <sup>2</sup>University of Pennsylvania, <sup>3</sup>Eyeline Labs
 </p>
 
-<p align="center"><b>TL;DR:</b> FreeOrbit4D is an effective training-free method for large-angle camera redirection via geometry-complete 4D proxy.</p>
+<p align="center"><b>TL;DR:</b> FreeOrbit4D is an effective <b>training-free</b> method for <b>large-angle camera redirection</b> via <b>geometry-complete 4D proxy</b>.</p>
 
 <div align="center">
 <table>
