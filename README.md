@@ -44,6 +44,11 @@ FreeOrbit4D is a training-free framework that redirects monocular videos to arbi
 <td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/breakdance_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/breakdance_inter.png" width="280"></a></td>
 <td align="center"><img src="assets/demo/breakdance_output.gif" width="280"></td>
 </tr>
+<tr>
+<td align="center"><img src="assets/demo/unitree_input.gif" width="280"></td>
+<td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/unitree/unitree_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/unitree_inter.png" width="280"></a></td>
+<td align="center"><img src="assets/demo/unitree_output.gif" width="280"></td>
+</tr>
 </table>
 </div>
 
