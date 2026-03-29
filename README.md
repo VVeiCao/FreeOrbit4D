@@ -4,13 +4,26 @@
 
 ### <p align="center">[FreeOrbit4D: Training-Free Arbitrary Camera Redirection for Monocular Videos via Geometry-Complete 4D Reconstruction](https://arxiv.org/abs/2601.18993)</p>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.18993-b31b1b.svg)](https://arxiv.org/abs/2601.18993)
-[![Paper](https://img.shields.io/badge/Paper-PDF-blue.svg)](https://arxiv.org/pdf/2601.18993)
-[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://cvmlgroup.web.illinois.edu/freeorbit4d/)
+<p align="center">
+  <a href="https://arxiv.org/abs/2601.18993"><img src="https://img.shields.io/badge/arXiv-2601.18993-b31b1b.svg"></a>
+  <a href="https://arxiv.org/pdf/2601.18993"><img src="https://img.shields.io/badge/Paper-PDF-blue.svg"></a>
+  <a href="https://cvmlgroup.web.illinois.edu/freeorbit4d/"><img src="https://img.shields.io/badge/Project-Page-green.svg"></a>
+</p>
 
-[Wei Cao](https://vveicao.github.io/)<sup>1</sup>, [Hao Zhang](https://haoz19.github.io/)<sup>1</sup>, [Fengrui Tian](https://tianfr.github.io/)<sup>2</sup>, [Yulun Wu](https://yulunwu0108.github.io/)<sup>1</sup>, [Yingying Li](https://www.yingying.li/)<sup>1</sup>, [Shenlong Wang](https://shenlong.web.illinois.edu/)<sup>1</sup>, [Ning Yu](https://ningyu1991.github.io/)<sup>3</sup>, [Yaoyao Liu](https://yaoyaoliu.web.illinois.edu/)<sup>1</sup>
+<p align="center">
+  <a href="https://vveicao.github.io/">Wei Cao</a><sup>1</sup>,
+  <a href="https://haoz19.github.io/">Hao Zhang</a><sup>1</sup>,
+  <a href="https://tianfr.github.io/">Fengrui Tian</a><sup>2</sup>,
+  <a href="https://yulunwu0108.github.io/">Yulun Wu</a><sup>1</sup>,
+  <a href="https://www.yingying.li/">Yingying Li</a><sup>1</sup>,
+  <a href="https://shenlong.web.illinois.edu/">Shenlong Wang</a><sup>1</sup>,
+  <a href="https://ningyu1991.github.io/">Ning Yu</a><sup>3</sup>,
+  <a href="https://yaoyaoliu.web.illinois.edu/">Yaoyao Liu</a><sup>1</sup>
+</p>
 
-<sup>1</sup>University of Illinois Urbana-Champaign, <sup>2</sup>University of Pennsylvania, <sup>3</sup>Eyeline Labs
+<p align="center">
+  <sup>1</sup>University of Illinois Urbana-Champaign, <sup>2</sup>University of Pennsylvania, <sup>3</sup>Eyeline Labs
+</p>
 
 FreeOrbit4D is a training-free framework that redirects monocular videos to arbitrary camera trajectories. It recovers a geometry-complete 4D proxy by decoupling foreground/background reconstruction, aligning multi-view point clouds via dense 3D-3D correspondences, and using the projected geometry as structural grounding for conditional video generation.
 
@@ -22,16 +35,12 @@ FreeOrbit4D is a training-free framework that redirects monocular videos to arbi
 <td align="center"><b>Output Video</b></td>
 </tr>
 <tr>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/camel/input_video.mp4" autoplay loop muted playsinline width="320"></video></td>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/camel/output_video.mp4" autoplay loop muted playsinline width="320"></video></td>
+<td align="center"><img src="assets/demo/camel_input.gif" width="320"></td>
+<td align="center"><img src="assets/demo/camel_output.gif" width="320"></td>
 </tr>
 <tr>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/input_video.mp4" autoplay loop muted playsinline width="320"></video></td>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/output_video.mp4" autoplay loop muted playsinline width="320"></video></td>
-</tr>
-<tr>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/unitree/input_video.m4v" autoplay loop muted playsinline width="320"></video></td>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/unitree/output_video.mp4" autoplay loop muted playsinline width="320"></video></td>
+<td align="center"><img src="assets/demo/breakdance_input.gif" width="320"></td>
+<td align="center"><img src="assets/demo/breakdance_output.gif" width="320"></td>
 </tr>
 </table>
 
@@ -44,19 +53,19 @@ FreeOrbit4D is a training-free framework that redirects monocular videos to arbi
 <td align="center"><b>Trajectory #2</b></td>
 </tr>
 <tr>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/two_views/bear/original_images.mp4" autoplay loop muted playsinline width="240"></video></td>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/two_views/bear/output_video_1.mp4" autoplay loop muted playsinline width="240"></video></td>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/two_views/bear/output_video_2.mp4" autoplay loop muted playsinline width="240"></video></td>
+<td align="center"><img src="assets/demo/bear_input.gif" width="240"></td>
+<td align="center"><img src="assets/demo/bear_traj1.gif" width="240"></td>
+<td align="center"><img src="assets/demo/bear_traj2.gif" width="240"></td>
 </tr>
 <tr>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/two_views/duck/original_images.mp4" autoplay loop muted playsinline width="240"></video></td>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/two_views/duck/output_video_1.mp4" autoplay loop muted playsinline width="240"></video></td>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/two_views/duck/output_video_2.mp4" autoplay loop muted playsinline width="240"></video></td>
+<td align="center"><img src="assets/demo/duck_input.gif" width="240"></td>
+<td align="center"><img src="assets/demo/duck_traj1.gif" width="240"></td>
+<td align="center"><img src="assets/demo/duck_traj2.gif" width="240"></td>
 </tr>
 <tr>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/two_views/hike/original_images.mp4" autoplay loop muted playsinline width="240"></video></td>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/two_views/hike/output_video.mp4" autoplay loop muted playsinline width="240"></video></td>
-<td align="center"><video src="https://vveicao.github.io/projects/freeorbit4d/assets/two_views/hike/output_video_2.mp4" autoplay loop muted playsinline width="240"></video></td>
+<td align="center"><img src="assets/demo/hike_input.gif" width="240"></td>
+<td align="center"><img src="assets/demo/hike_traj1.gif" width="240"></td>
+<td align="center"><img src="assets/demo/hike_traj2.gif" width="240"></td>
 </tr>
 </table>
 
@@ -64,9 +73,11 @@ FreeOrbit4D is a training-free framework that redirects monocular videos to arbi
 
 Explore our 4D reconstructions interactively in your browser:
 
-[![Camel](https://img.shields.io/badge/4D_Viewer-Camel-orange.svg)](https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/camel/camel_4d_v14.viser&initDistanceScale=1&initHeightOffset=0.0)
-[![Breakdance](https://img.shields.io/badge/4D_Viewer-Breakdance-orange.svg)](https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/breakdance_4d.viser&initDistanceScale=1&initHeightOffset=0.0)
-[![Unitree](https://img.shields.io/badge/4D_Viewer-Unitree-orange.svg)](https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/unitree/unitree_4d.viser&initDistanceScale=1&initHeightOffset=0.0)
+<p align="center">
+  <a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/camel/camel_4d_v14.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="https://img.shields.io/badge/4D_Viewer-Camel-orange.svg"></a>
+  <a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/breakdance_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="https://img.shields.io/badge/4D_Viewer-Breakdance-orange.svg"></a>
+  <a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/unitree/unitree_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="https://img.shields.io/badge/4D_Viewer-Unitree-orange.svg"></a>
+</p>
 
 For more results, please visit our [project page](https://cvmlgroup.web.illinois.edu/freeorbit4d/).
 
