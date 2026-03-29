@@ -31,18 +31,18 @@ FreeOrbit4D is a training-free framework that redirects monocular videos to arbi
 <table>
 <tr>
 <td align="center"><b>Input Video</b></td>
-<td align="center"><b>Output Video</b></td>
 <td align="center"><b>Interactive 4D</b></td>
+<td align="center"><b>Output Video</b></td>
 </tr>
 <tr>
 <td align="center"><img src="assets/demo/camel_input.gif" width="280"></td>
+<td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/camel/camel_4d_v14.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/camel_inter.png" width="280"></a></td>
 <td align="center"><img src="assets/demo/camel_output.gif" width="280"></td>
-<td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/camel/camel_4d_v14.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="https://img.shields.io/badge/4D_Viewer-Camel-orange.svg?style=for-the-badge"></a></td>
 </tr>
 <tr>
 <td align="center"><img src="assets/demo/breakdance_input.gif" width="280"></td>
+<td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/breakdance_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/breakdance_inter.png" width="280"></a></td>
 <td align="center"><img src="assets/demo/breakdance_output.gif" width="280"></td>
-<td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/breakdance_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="https://img.shields.io/badge/4D_Viewer-Breakdance-orange.svg?style=for-the-badge"></a></td>
 </tr>
 </table>
 </div>
