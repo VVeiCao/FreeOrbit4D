@@ -24,7 +24,7 @@
   <sup>1</sup>University of Illinois Urbana-Champaign, <sup>2</sup>University of Pennsylvania, <sup>3</sup>Eyeline Labs
 </p>
 
-<p align="center"><b>TL;DR:</b> FreeOrbit4D is an effective <b>training-free</b> method for <b>large-angle camera redirection</b> via <b>geometry-complete 4D proxy</b>.</p>
+<h4 align="center"><b>TL;DR: FreeOrbit4D is an effective training-free method for large-angle camera redirection via geometry-complete 4D proxy.</b></h4>
 
 <div align="center">
 <table>
@@ -33,17 +33,17 @@
 <td align="center"><b>Interactive 4D</b><br><sub>(click to explore)</sub></td>
 <td align="center"><b>Output Video</b></td>
 </tr>
-<tr bgcolor="white">
+<tr>
 <td align="center"><img src="assets/demo/camel_input.gif" width="280"></td>
 <td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/camel/camel_4d_v14.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/camel_inter.png" width="280"></a></td>
 <td align="center"><img src="assets/demo/camel_output.gif" width="280"></td>
 </tr>
-<tr bgcolor="white">
+<tr>
 <td align="center"><img src="assets/demo/breakdance_input.gif" width="280"></td>
 <td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/breakdance/breakdance_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/breakdance_inter.png" width="280"></a></td>
 <td align="center"><img src="assets/demo/breakdance_output.gif" width="280"></td>
 </tr>
-<tr bgcolor="white">
+<tr>
 <td align="center"><img src="assets/demo/unitree_input.gif" width="280"></td>
 <td align="center"><a href="https://vveicao.github.io/projects/freeorbit4d/build/?playbackPath=https://vveicao.github.io/projects/freeorbit4d/assets/unitree/unitree_4d.viser&initDistanceScale=1&initHeightOffset=0.0"><img src="assets/demo/unitree_inter.png" width="280"></a></td>
 <td align="center"><img src="assets/demo/unitree_output.gif" width="280"></td>
@@ -60,17 +60,17 @@
 <td align="center"><b>Trajectory #1</b></td>
 <td align="center"><b>Trajectory #2</b></td>
 </tr>
-<tr bgcolor="white">
+<tr>
 <td align="center"><img src="assets/demo/bear_input.gif" width="240"></td>
 <td align="center"><img src="assets/demo/bear_traj1.gif" width="240"></td>
 <td align="center"><img src="assets/demo/bear_traj2.gif" width="240"></td>
 </tr>
-<tr bgcolor="white">
+<tr>
 <td align="center"><img src="assets/demo/duck_input.gif" width="240"></td>
 <td align="center"><img src="assets/demo/duck_traj1.gif" width="240"></td>
 <td align="center"><img src="assets/demo/duck_traj2.gif" width="240"></td>
 </tr>
-<tr bgcolor="white">
+<tr>
 <td align="center"><img src="assets/demo/hike_input.gif" width="240"></td>
 <td align="center"><img src="assets/demo/hike_traj1.gif" width="240"></td>
 <td align="center"><img src="assets/demo/hike_traj2.gif" width="240"></td>
