@@ -1,0 +1,36 @@
+# 数据与输出
+outputs/
+data/
+demo/
+
+# 模型权重
+checkpoints/
+models/
+src/
+
+# IDE
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+env/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+logs/
