@@ -84,7 +84,9 @@ For more results, please visit our [project page](https://cvmlgroup.web.illinois
 
 We are actively cleaning and organizing the codebase. Stay tuned!
 
-⭐ **Star this repo to get notified when the code is released.**
+🚀 **The code will be released before the conference.**
+
+⭐ **Star this repo to get notified when it becomes available.**
 
 ## Citation
 
