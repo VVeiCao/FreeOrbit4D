@@ -2,7 +2,7 @@
   <img src="assets/title.png" width="400">
 </p>
 
-### <p align="center">[FreeOrbit4D: Training-Free Arbitrary Camera Redirection for Monocular Videos via Geometry-Complete 4D Reconstruction](https://arxiv.org/abs/2601.18993)</p>
+### <p align="center">[FreeOrbit4D: Training-free Arbitrary Camera Redirection for Monocular Videos via Foreground-Complete 4D Reconstruction](https://arxiv.org/abs/2601.18993)</p>
 
 <h2 align="center">ACM SIGGRAPH 2026 Conference Papers</h2>
 
@@ -180,7 +180,7 @@ For input requirements, point-prompting tips, and output layout, see [docs/proce
 
 ```bibtex
 @inproceedings{cao2026freeorbit4d,
-  title={{FreeOrbit4D}: Training-Free Arbitrary Camera Redirection for Monocular Videos via Foreground-Complete {4D} Reconstruction},
+  title={{FreeOrbit4D}: Training-free Arbitrary Camera Redirection for Monocular Videos via Foreground-Complete {4D} Reconstruction},
   author={Cao, Wei and Zhang, Hao and Tian, Fengrui and Wu, Yulun and Li, Yingying and Wang, Shenlong and Yu, Ning and Liu, Yaoyao},
   booktitle={ACM SIGGRAPH Conference Papers},
   year={2026}
