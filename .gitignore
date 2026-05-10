@@ -1,8 +1,19 @@
-data/
+# Data and outputs
 outputs/
-.vscode/
+data/
 
-# Python 相关
+configs/user/
+
+# Model weights
+checkpoints/
+models/
+src/
+
+# IDE
+.vscode/
+.claude/
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -16,14 +27,16 @@ env/
 venv/
 .env
 
-# Jupyter Notebook
+# Jupyter
 .ipynb_checkpoints
 
-# 系统文件
+# System files
 .DS_Store
 Thumbs.db
 
+# Logs
+logs/
+run_logs/
 
-# checkpoints
-page-4d/weights/
-generative-models/checkpoints/
+# Local notes
+.local/

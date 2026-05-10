@@ -1,0 +1,21 @@
+_base_: ../default.yaml
+
+project:
+  name: camel
+  input_images: demo/camel/images
+  input_masks: demo/camel/masks
+  output_multiview: outputs/multiview/camel
+  output_prepared: outputs/prepared/camel
+  output_rendering_base: outputs/rendering/camel
+
+common:
+  seed: 23
+
+stage_1:
+  background:
+    confidence_threshold: 5.0
+
+  rendering:
+    arc_type: yaw
+    arc_angle: -120
+    arc_radius_scale: 1.0

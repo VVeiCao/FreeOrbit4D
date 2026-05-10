@@ -1,0 +1,21 @@
+_base_: ../default.yaml
+
+project:
+  name: car-turn
+  input_images: demo/car-turn/images
+  input_masks: demo/car-turn/masks
+  output_multiview: outputs/multiview/car-turn
+  output_prepared: outputs/prepared/car-turn
+  output_rendering_base: outputs/rendering/car-turn
+
+common:
+  seed: 23
+
+stage_1:
+  background:
+    confidence_threshold: 50.0
+
+  rendering:
+    arc_type: yaw
+    arc_angle: -120
+    arc_radius_scale: 1.0

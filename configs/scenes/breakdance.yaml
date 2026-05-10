@@ -1,0 +1,21 @@
+_base_: ../default.yaml
+
+project:
+  name: breakdance
+  input_images: demo/breakdance/images
+  input_masks: demo/breakdance/masks
+  output_multiview: outputs/multiview/breakdance
+  output_prepared: outputs/prepared/breakdance
+  output_rendering_base: outputs/rendering/breakdance
+
+common:
+  seed: 88
+
+stage_1:
+  background:
+    confidence_threshold: 50.0
+
+  rendering:
+    arc_type: yaw
+    arc_angle: 90
+    arc_radius_scale: 1.0

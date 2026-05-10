@@ -1,3 +1,6 @@
 [submodule "generative-models"]
 	path = generative-models
 	url = https://github.com/Stability-AI/generative-models.git
+[submodule "DiffSynth-Studio"]
+	path = DiffSynth-Studio
+	url = https://github.com/modelscope/DiffSynth-Studio.git

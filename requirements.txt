@@ -1,0 +1,73 @@
+# ============================================================================
+# FreeOrbit4D dependencies
+# Python 3.10 | PyTorch is installed by setup_env.sh
+#
+# The following packages are installed separately by setup_env.sh:
+#   torch, torchvision, torchaudio, xformers, pytorch3d
+#   accelerate, clip, sdata
+#   DiffSynth-Studio (diffsynth), generative-models (sgm)
+# ============================================================================
+
+# --- Numerical packages ---
+numpy>=1.26
+scipy>=1.10.1
+
+# --- Deep learning utilities ---
+einops>=0.6.1
+timm>=0.9.2
+kornia==0.6.9
+fairscale>=0.4.13
+
+# --- Transformers ecosystem ---
+transformers==4.57.1
+huggingface-hub<1.0,>=0.34.0
+peft>=0.18.0
+sentencepiece
+protobuf
+safetensors
+# diffsynth's wan_video_text_encoder imports these unconditionally;
+# pin them here so we do not depend on a transitive resolution.
+ftfy
+regex
+
+# --- Vision and image processing ---
+opencv-python>=4.6.0
+Pillow>=9.5.0
+imageio[ffmpeg,pyav]
+rembg
+onnxruntime
+
+# --- 3D processing ---
+open3d
+trimesh
+
+# --- Visualization ---
+matplotlib>=3.7.2
+viser>=0.2.1
+splines
+
+# --- sgm runtime dependencies (generative-models is installed with --no-deps) ---
+open-clip-torch>=2.20.0
+invisible-watermark>=0.2.0
+pytorch-lightning==2.0.1
+torchmetrics>=1.0.1
+
+# --- DiffSynth runtime dependencies (DiffSynth-Studio is installed with --no-deps) ---
+modelscope
+controlnet-aux==0.0.7
+qwen-vl-utils
+datasets
+
+# --- Interactive annotation (SAM2 + Gradio) ---
+gradio>=4.0
+loguru
+
+# --- Configuration and utilities ---
+omegaconf>=2.3.0
+pyyaml>=6.0.1
+natsort>=8.4.0
+tqdm>=4.65.0
+fire>=0.5.0
+ninja>=1.11.1
+iopath
+gdown

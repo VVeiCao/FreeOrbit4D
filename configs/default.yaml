@@ -1,0 +1,85 @@
+# Default configuration
+
+common:
+  device: cuda
+  seed: 23
+  deterministic: true
+  num_frames: null
+  num_workers: 4
+
+# Project paths are auto-generated: outputs/{stage}/{name}
+project:
+  output_root: outputs
+
+stage_0:
+  multiview:
+    model_type: sv4d2
+    num_steps: 50
+    num_views: 4
+    stride: 1
+    max_frames: 45
+    target_size: 576
+    image_frame_ratio: 0.9
+    encoding_t: 8
+    decoding_t: 4
+    fps: 10
+
+  preparation:
+    output_height: 480
+    output_width: 832
+
+stage_1:
+  foreground:
+    target_long_edge: 518
+    divisor: 14
+
+  background:
+    confidence_threshold: 5.0
+    pad_pixels: 5
+    voxel_size: 0.001
+    outlier_nb_neighbors: 500
+    outlier_std_ratio: 1.5
+    point_source: backproject
+
+  alignment:
+    enable_smoothing: true
+    erosion_kernel_size: 20
+    erosion_iterations: 1
+    corr_conf_threshold: 1.0
+    corr_outlier_nb_neighbors: 1000
+    corr_outlier_std_ratio: 0.5
+    complete_conf_threshold: 1.0
+    complete_outlier_nb_neighbors: 50
+    complete_outlier_std_ratio: 1.5
+    kalman_process_noise: 1.0e-9
+    kalman_measurement_noise: 0.2
+    kalman_z_penalty: 0.01  # Z-axis smoothing penalty (<1 = smoother)
+    min_points: 100
+    save_debug_plots: false
+
+  camera:
+    mode: arc
+    arc_type: yaw        # Arc type: yaw (horizontal orbit) | pitch (vertical tilt) | roll (lateral roll)
+    arc_angle: -120
+    num_keyframes: 8
+
+  rendering:
+    point_radius_px: 1.0
+    image_height: 480
+    image_width: 832
+    depth_percentile_min: 1.0
+    depth_percentile_max: 99.0
+    background_color: 127
+    fps: 10
+    arc_type: yaw        # Arc type: yaw (horizontal orbit) | pitch (vertical tilt) | roll (lateral roll)
+    arc_angle: -120
+    arc_radius_scale: 1.0
+
+stage_2:
+  model_name: "Wan2.2-VACE-Fun-A14B"
+  # null means "use common.seed"; set an integer here only if Stage 2 should
+  # intentionally use a different seed from the rest of the pipeline.
+  seed: null
+  num_inference_steps: 50
+  sigma_shift: 16.0
+  cfg_scale: 5.0
