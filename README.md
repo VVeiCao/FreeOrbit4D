@@ -7,7 +7,7 @@
 <h4 align="center">ACM SIGGRAPH 2026 Conference Papers</h4>
 
 <p align="center">
-  <a href="https://cvmlgroup.web.illinois.edu/freeorbit4d/"><img src="https://img.shields.io/badge/Project-Page-green.svg?style=for-the-badge"></a>
+  <a href="https://freeorbit4d.vision.ischool.illinois.edu/"><img src="https://img.shields.io/badge/Project-Page-green.svg?style=for-the-badge"></a>
   <a href="https://arxiv.org/abs/2601.18993"><img src="https://img.shields.io/badge/arXiv-2601.18993-b31b1b.svg?style=for-the-badge"></a>
 </p>
 
