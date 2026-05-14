@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/title.png" width="300">
+  <img src="assets/title.png" width="200">
 </p>
 
 ### <p align="center">[FreeOrbit4D: Training-free Arbitrary Camera Redirection for Monocular Videos via Foreground-Complete 4D Reconstruction](https://arxiv.org/abs/2601.18993)</p>
