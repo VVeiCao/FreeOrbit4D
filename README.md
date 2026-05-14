@@ -4,7 +4,7 @@
 
 ### <p align="center">[FreeOrbit4D: Training-free Arbitrary Camera Redirection for Monocular Videos via Foreground-Complete 4D Reconstruction](https://arxiv.org/abs/2601.18993)</p>
 
-<h2 align="center">ACM SIGGRAPH 2026 Conference Papers</h2>
+<h4 align="center">ACM SIGGRAPH 2026 Conference Papers</h4>
 
 <p align="center">
   <a href="https://cvmlgroup.web.illinois.edu/freeorbit4d/"><img src="https://img.shields.io/badge/Project-Page-green.svg?style=for-the-badge"></a>
