@@ -18,12 +18,12 @@
   <a href="https://yulunwu0108.github.io/">Yulun Wu</a><sup>1</sup>,
   <a href="https://www.yingying.li/">Yingying Li</a><sup>1</sup>,
   <a href="https://shenlong.web.illinois.edu/">Shenlong Wang</a><sup>1</sup>,
-  <a href="https://ningyu1991.github.io/">Ning Yu</a><sup>3</sup>,
+  <a href="https://ningyu1991.github.io/">Ning Yu</a><sup>3,4</sup>,
   <a href="https://yaoyaoliu.web.illinois.edu/">Yaoyao Liu</a><sup>1</sup>
 </p>
 
 <p align="center">
-  <sup>1</sup>University of Illinois Urbana-Champaign, <sup>2</sup>University of Pennsylvania, <sup>3</sup>Eyeline Labs
+  <sup>1</sup>University of Illinois Urbana-Champaign, <sup>2</sup>University of Pennsylvania, <sup>3</sup>Eyeline Labs, <sup>4</sup>Netflix
 </p>
 
 <h4 align="center"><b>TL;DR: FreeOrbit4D is an effective training-free method for large-angle camera redirection via geometry-complete 4D proxy.</b></h4>
